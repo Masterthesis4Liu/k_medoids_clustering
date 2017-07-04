@@ -19,4 +19,4 @@ Reference of k_medoids_clustering: https://de.mathworks.com/help/stats/kmedoids.
 I choose 15 as the number of clusters, although the value of average silhouette is besser when the nummer of clusters equal to 3. 
 because i think, when we divided the datasets only into 3 groups, it's so small.
 
-when you guys have ant idea, just write down!!!
+when you guys have any idea, just write down!!!
