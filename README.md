@@ -11,3 +11,7 @@ algorithm, and the quality of the final solution.
 
 Reference of k_means_clustering and k-means++ algorithm: https://de.mathworks.com/help/stats/kmeans.html
 Reference of k_medoids_clustering: https://de.mathworks.com/help/stats/kmedoids.html
+
+'plus' (default): Select k observations from X according to the k-means++ algorithm for cluster center initialization.
+'sample': Select k observations from X at random.
+'cluster': Perform preliminary clustering phase on a random subsample (10%) of X. This preliminary phase is itself initialized using 'sample': that is, the observations are selected at random.
