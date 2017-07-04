@@ -15,3 +15,8 @@ Reference of k_medoids_clustering: https://de.mathworks.com/help/stats/kmedoids.
 'plus' (default): Select k observations from X according to the k-means++ algorithm for cluster center initialization.
 'sample': Select k observations from X at random.
 'cluster': Perform preliminary clustering phase on a random subsample (10%) of X. This preliminary phase is itself initialized using 'sample': that is, the observations are selected at random.
+
+I choose 15 as the number of clusters, although the value of average silhouette is besser when the nummer of clusters equal to 3. 
+because i think, when we divided the datasets only into 3 groups, it's so small.
+
+when you guys have ant idea, just write down!!!
